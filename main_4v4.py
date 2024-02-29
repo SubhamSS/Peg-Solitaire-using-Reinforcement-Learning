@@ -54,7 +54,7 @@ if not isExist:
    os.makedirs(imagespath)
 
 
-for i_episode in range(1, 400):
+for i_episode in range(1, 4000):
     # eps_steps=0
     episode_reward = 0
     done = False
@@ -179,8 +179,8 @@ plt.show()
 # solution of board after training
 state = env.reset()
 env.print_board(state)
-plot_board(state,imagespath+'/4v4_1.png')
-temp_step=1
+plot_board(state,imagespath+'/101_4v4.png')
+temp_step=101
 done = False
 
 while not done:
@@ -200,7 +200,7 @@ while not done:
     state = next_state
     temp_step+=1
     env.print_board(state)
-    plot_board(state,imagespath+'/4v4_'+str(temp_step)+'.png')
+    plot_board(state,imagespath+'/'+str(temp_step)+'_4v4.png')
 
 # save model
 torch.save(agent, modelspath+'/model44.pth')

@@ -202,8 +202,8 @@ plt.show()
 # solution of board after training
 state = env.reset()
 env.print_board(state)
-plot_board(state,imagespath+'/5v5_1.png')
-temp_step=1
+plot_board(state,imagespath+'/101_5v5.png')
+temp_step=101
 done = False
 
 while not done:
@@ -223,7 +223,7 @@ while not done:
     state = next_state
     temp_step+=1
     env.print_board(state)
-    plot_board(state,imagespath+'/5v5_'+str(temp_step)+'.png')
+    plot_board(state,imagespath+'/'+str(temp_step)+'_5v5.png')
 
 
 torch.save(agent, modelspath+'/model55.pth')
