@@ -56,7 +56,6 @@ This can make it difficult for the agent to learn an optimal policy, as it needs
 the long term consequences of its actions.
 
 Thus, we look for ways to improve the reward model, and modified the rewards to the following:
-<img style="float: right;" src="Git images/4_4_train.jpg">
 * 5 x 5  Board: Added extra Reward to states which have valid actions:
   * 10<sup>8</sup>if the minimum number of pegs is achieved
   * Else:
