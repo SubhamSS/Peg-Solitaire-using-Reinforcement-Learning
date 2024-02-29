@@ -46,6 +46,9 @@ While running
 
 <img src="Git images/4_4_train.jpg" width="900">
 
+![4v4](/Git images/output.gif)
+
+
 # Higher Dimensional Boards
 
 As we increase the board dimensions, the number of possible board configurations increases exponentially with the number of pegs, making it challenging to explore and learn from all possible states
