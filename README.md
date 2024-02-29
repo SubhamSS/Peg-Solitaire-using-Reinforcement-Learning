@@ -46,7 +46,7 @@ While running
 
 <img src="Git images/4_4_train.jpg" width="900">
 
-![4v4](/'Git images'/output.gif)
+![4v4](https://github.com/SubhamSS/Peg-Solitaire-using-Reinforcement-Learning/blob/master/Git%20images/output.gif)
 
 
 # Higher Dimensional Boards
